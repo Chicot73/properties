@@ -1,0 +1,40 @@
+
+.inquiry-form__title2 {
+    display: none;
+    text-align: center;
+    @include font (700, 4.4rem, 116%);
+    font-family: 'Ubuntu';
+    color: #FFFFFF;
+    letter-spacing: 0.01em;
+    margin-bottom: .6rem;
+    text-transform: capitalize;
+}
+    
+@media only screen and (min-width: 35.5em) and (max-width: 54.99em) {
+    .inquiry-form__title2 {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%,0);
+        @include font (700, 3rem, 113%);
+        padding-top: 7rem;
+        padding-bottom: 4.5rem;
+    }
+}
+    
+@media only screen and (max-width: 35.49em) {
+    .inquiry-form__title2 {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%,0);
+        width: 27.4rem;
+        //margin-left: auto;
+        //margin-right: auto;
+        display: block;
+        @include font (700, 4.6rem, 115%);
+        padding-top: 7.9rem;
+        padding-bottom: 5.2rem;
+    }
+}

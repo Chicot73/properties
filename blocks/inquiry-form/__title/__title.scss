@@ -1,0 +1,21 @@
+
+.inquiry-form__title {
+    @include font (700, 4.4rem, 116%);
+    font-family: 'Ubuntu';
+    color: #FFFFFF;
+    letter-spacing: 0.01em;
+    margin-bottom: .6rem;
+    width: 32rem;
+}
+    
+@media only screen and (min-width: 35.5em) and (max-width: 54.99em) {
+    .inquiry-form__title {
+        display: none;
+    }
+}
+    
+@media only screen and (max-width: 35.49em) {
+    .inquiry-form__title {
+        display: none;
+    }
+}
