@@ -1,0 +1,21 @@
+.contacts__line {
+    width: 100%;
+    opacity: 0.2;
+    border: 0.1rem solid #FFFFFF;
+    margin-bottom: 3.2rem;
+}
+
+@media only screen and (min-width: 35.5em) and (max-width: 54.99em) {
+    .contacts__line {
+        margin-bottom: 2.3rem;
+    }
+}
+    
+@media only screen and (max-width: 35.49em) {
+    .contacts__line {
+        width: 43.2rem;
+        border: 0.13rem solid #FFFFFF;
+        margin-bottom: 3.2rem;
+        margin-left: 3.6rem;
+    }
+}

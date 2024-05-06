@@ -1,0 +1,27 @@
+.footer__background {
+    width: 100%;
+    height: auto;
+    min-height: 44.3rem;
+    padding-top: 6.3rem;
+    padding-bottom: 6rem;
+    background: #0d263c;
+    position: relative;
+}
+
+@media only screen and (min-width: 35.5em) and (max-width: 54.99em) {
+    .footer__background {
+        height: 91rem;
+        padding-top: 5.4rem;
+        padding-bottom: 5.9rem;
+        padding-left: 7rem;
+        padding-right: 7rem;
+    }
+}
+
+@media only screen and (max-width: 35.49em) {
+    .footer__background {
+        height: auto;
+        padding-top: 7.3rem;
+        padding-bottom: 4.1rem;
+    }
+}

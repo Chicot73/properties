@@ -1,0 +1,29 @@
+.lists__item {
+    text-align: left;
+    color: #E7FAFF;
+    @include font (500, 1.6rem, 116%); 
+    font-family: 'Poppins';
+    text-transform: capitalize;
+    text-decoration-line: underline;
+    letter-spacing: 0.05em;
+    cursor: pointer;
+}
+.lists__items .lists__item:not(:last-child) {
+    margin-bottom: 2.7rem;
+}
+
+@media only screen and (min-width: 35.5em) and (max-width: 54.99em) {
+    .lists__item {
+        text-align: left;
+        @include font (700, 1.6rem, 116%);
+    }
+    .lists__items .lists__item:not(:last-child) {
+        margin-bottom: 3rem;
+    }
+}
+
+@media only screen and (max-width: 35.49em) {
+    .lists__item {
+        display: none;
+    }
+}

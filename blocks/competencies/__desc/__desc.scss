@@ -1,0 +1,23 @@
+
+.competencies__desc {
+    @include font (400, 1.8rem, 122%);
+    font-family: 'Inter';
+    color: #666666;
+    margin-bottom: 6.4rem;
+    text-align: center;
+    letter-spacing: 0.01em;
+}
+
+@media only screen and (min-width: 35.5em) and (max-width: 54.99em) {
+    .competencies__desc {
+        margin-bottom: 4.6rem;
+    }
+}
+
+@media only screen and (max-width: 35.49em) {
+    .competencies__desc {
+        @include font (400, 2.8rem, 122%);
+        margin: auto 5.4rem 5.8rem;
+        text-align: center;
+    }
+}

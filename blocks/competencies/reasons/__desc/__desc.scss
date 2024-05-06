@@ -1,0 +1,23 @@
+
+.reasons__desc {
+    @include font (400, 1.6rem, 150%);
+    font-family: 'Ubuntu';
+    color: #666666;
+    text-align: center;
+    margin: 0 2.1rem 1.3rem 2.1rem;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+@media only screen and (min-width: 35.5em) and (max-width: 54.99em) {
+    .reasons__desc {
+        @include font (400, 1.4rem, 150%);
+    }
+}
+
+@media only screen and (max-width: 35.49em) {
+    .reasons__desc {
+        @include font (400, 2.5rem, 148%);
+        margin: auto 4.3rem;
+    }
+}

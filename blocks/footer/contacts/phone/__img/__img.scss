@@ -1,0 +1,14 @@
+.phone__img {
+    width: 1.6rem;
+    height: 1.6rem;
+    margin-right: 1.9rem;
+    flex-shrink: 0;
+}
+
+@media only screen and (max-width: 35.49em) {
+    .phone__img {
+        width: 2.3rem;
+        height: 2.3rem;
+        margin-right: 2.9rem;
+    }
+}

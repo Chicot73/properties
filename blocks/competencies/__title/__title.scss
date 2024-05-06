@@ -1,0 +1,22 @@
+.competencies__title {
+    @include font (700, 4.4rem, 134%);
+    font-family: 'Ubuntu';
+    color: #333333;
+    margin-bottom: 1.4rem;
+    text-align: center;
+    text-align: center;
+    letter-spacing: 0.01em;
+}
+
+@media only screen and (min-width: 35.5em) and (max-width: 54.99em) {
+    .competencies__title {
+        @include font (700, 3.2rem, 134%);
+    }
+}
+
+@media only screen and (max-width: 35.49em) {
+    .competencies__title {
+        @include font (700, 4.6rem, 228%);
+        margin-bottom: 0;
+    }
+}

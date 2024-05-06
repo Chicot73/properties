@@ -1,0 +1,19 @@
+.competencies__wrapper {
+    width: 100%;
+    @include vert-c;
+}
+
+@media only screen and (min-width: 35.5em) and (max-width: 54.99em) {
+
+    .competencies__wrapper {
+        height: 61.9rem;
+        flex-wrap: wrap;
+        margin: auto 6rem;
+    }
+}
+
+@media only screen and (max-width: 35.49em) {
+    .competencies__wrapper {
+        flex-wrap: wrap;
+    }
+}

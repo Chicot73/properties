@@ -1,0 +1,23 @@
+.links__item {
+    text-align: left;
+    color: #E7FAFF;
+    @include font (500, 1.6rem, 116%); 
+    letter-spacing: 0.05em;
+    font-family: 'Poppins';
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.links__items .links__item:not(:last-child) {
+    margin-bottom: 2.8rem;
+}
+
+@media only screen and (min-width: 35.5em) and (max-width: 54.99em) {
+    .links__item {
+        text-align: left;
+        @include font (700, 1.6rem, 116%);
+    }
+    .links__items .links__item:not(:last-child) {
+        margin-bottom: 3rem;
+    }
+}
+    

@@ -1,0 +1,24 @@
+.contacts__title {
+    text-align: left;
+    color: #E7F0FD;
+    @include font (700, 2.4rem, 117%); 
+    font-family: 'Ubuntu';
+    text-transform: capitalize;
+    margin-bottom: 4.5rem;
+}
+
+@media only screen and (min-width: 35.5em) and (max-width: 54.99em) {
+    .contacts__title {
+        text-align: left;
+        @include font (700, 2.2rem, 114%);
+        margin-bottom: 6.3rem;
+    }
+}
+    
+@media only screen and (max-width: 35.49em) {
+    .contacts__title {
+        text-align: center;
+        @include font (700, 3.2rem, 116%);
+        margin-bottom: 7.1rem;
+    }
+}

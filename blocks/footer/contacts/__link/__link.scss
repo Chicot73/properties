@@ -1,0 +1,35 @@
+.contacts__link {
+    width: 1.7rem;
+    margin-right: 3.6rem;
+    flex-shrink: 0;
+    &:nth-child(2) {
+        width: 2rem;
+    }
+    &:nth-child(3) {
+        width: 1.5rem;
+    }
+    &:nth-child(4) {
+        width: 2.1rem;
+    }
+}
+    
+@media only screen and (max-width: 35.49em) {
+    .contacts__link {
+        width: 2.4rem;
+        height: 3.1rem;
+        margin-right: 6.4rem;
+        flex-shrink: 0;
+
+        &:nth-child(2) {
+            width: 3rem;
+        }
+        &:nth-child(3) {
+            width: 2.2rem;
+            height: 4.1rem;
+        }
+        &:nth-child(4) {
+            width: 2.8rem;
+            height: 2rem;
+        }
+    }
+}

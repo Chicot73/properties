@@ -1,0 +1,15 @@
+.e-mail__text {
+    text-align: left;
+    color: #E7FAFF;
+    @include font (500, 1.6rem, 119%); 
+    font-family: 'Inter';
+    letter-spacing: 0.05em;
+    text-transform: lowercase;
+    margin-bottom: 3.4rem;
+}
+
+@media only screen and (max-width: 35.49em) {
+    .e-mail__text {
+        @include font (500, 2.5rem, 120%); 
+    }
+}

@@ -1,0 +1,15 @@
+.address__text {
+    text-align: left;
+    color: #E7FAFF;
+    @include font (500, 1.6rem, 150%); 
+    font-family: 'Inter';
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    margin-bottom: 3.7rem;
+}
+
+@media only screen and (max-width: 35.49em) {
+    .address__text {
+        @include font (500, 2.5rem, 150%); 
+    }
+}
