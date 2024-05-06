@@ -1,0 +1,58 @@
+.checkbox__note {
+    position: relative;
+    width: 33.9rem;
+    display: flex;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 125%;
+    font-family: Poppins;
+    color: grey;
+    letter-spacing: .05em;
+    text-transform: capitalize;
+    margin-bottom: 3.2rem;
+    padding-left: 3rem;
+    cursor: pointer;
+
+    &::before {
+        content: "";
+        display: block;
+        width: 1.4rem;
+        height: 1.4rem;
+        border: 0.2rem solid #cdcdcd;
+        border-radius: 0.3rem;
+        background: #fff;
+        flex-shrink: 0;
+        cursor: pointer;
+        position: absolute;
+        left: 0;
+        top: -0.1rem;
+        transform: translate(0,0);
+    }
+}
+
+@media only screen and (max-width: 35.49em) {
+    .checkbox__note {
+        font-weight: 400;
+        font-size: 2.6rem;
+        line-height: 150%;
+        width: 50rem;
+        margin-bottom: 5.2rem;
+        padding-left: 4.6rem;
+
+        &::before {
+            content: "";
+            display: block;
+            width: 2.5rem;
+            height: 2.5rem;
+            border: 0.2rem solid grey;
+            border-radius: 0.5rem;
+            background: #fff;
+            flex-shrink: 0;
+            cursor: pointer;
+            position: absolute;
+            left: 0;
+            top: 0.3rem;
+            transform: translate(0,0);
+        }
+    }
+}

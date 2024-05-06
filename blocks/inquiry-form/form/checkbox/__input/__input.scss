@@ -1,0 +1,22 @@
+.checkbox__input {
+    position: absolute;
+    width: 0.1rem;
+    height: 0.1rem;
+    margin: -0.1rem;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+
+    &:checked+.checkbox__note::before {
+        background: url(../img/main/checked.svg), #fff;
+        background-size: 75%;
+        background-repeat: no-repeat;
+        background-position-x: .3rem;
+        background-position-y: .3rem;
+        cursor: pointer
+    }
+
+    &:not(:checked)+.checkbox__note::before {
+        background: #fff;
+    }
+}

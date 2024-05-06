@@ -1,0 +1,21 @@
+.checkbox__note--active {
+
+     &::before {
+        background: url(../img/main/checked.svg),#fff;
+        background-size: 75%;
+        background-repeat: no-repeat;
+        background-position-x: 0.3rem;
+        background-position-y: 0.3rem;
+        border: .2rem solid #1c77ff;
+        box-shadow: 0 0.4rem 1rem 0.3rem rgba(18, 102, 227, 0.35);
+    } 
+}
+
+@media only screen and (max-width: 35.49em) {
+    .checkbox__note--active {
+        &::before {
+            border: .2rem solid #1c77ff;
+            box-shadow: 0 .9rem 2.2rem .7rem rgba(18, 102, 227, 0.35);
+        } 
+    }
+}

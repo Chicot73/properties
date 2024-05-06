@@ -1,0 +1,38 @@
+.property__header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.3rem 1rem 1.3rem 0;
+    border: 0.2rem solid #e5e5e5;
+    background-color: #fff;
+    border-radius: 1rem;
+    cursor: pointer;
+    margin-bottom: 1rem;
+
+    & img {
+        display: block;
+        margin-left: auto;
+        margin-right: 0;
+        width: 1.8rem;
+        height: 1rem;
+    }
+}
+
+@media only screen and (max-width: 35.49em) {
+    .property__header {
+        padding: 2.3rem 1.9rem 2.2rem 0;
+        border: 0.3rem solid #e5e5e5;
+        background-color: #fff;
+        border-radius: 1.8rem;
+        cursor: pointer;
+        width: 100%;
+        margin-bottom: 1.8rem;
+
+        & img {
+            width: 3.2rem;
+            height: 1.8rem;
+            flex-shrink: 0;
+        }
+    }
+}

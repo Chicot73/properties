@@ -1,0 +1,24 @@
+
+.user__item {
+    @include font (400, 1.6rem, 300%);
+    font-family: 'Poppins';
+    font-style: normal;
+    color: #999999;
+    
+    &:hover {
+        color: #6F6F6F;
+        background-color: #EFF0F4;
+    }
+}
+
+@media only screen and (min-width: 35.5em) and (max-width: 54.99em) {
+    .user__item {
+        @include font (400, 1.4rem, 300%);
+    }
+}
+
+@media only screen and (max-width: 35.49em) {
+    .user__item {
+        @include font (400, 2.6rem, 300%);
+    }
+}

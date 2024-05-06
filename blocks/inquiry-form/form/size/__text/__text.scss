@@ -1,0 +1,21 @@
+ 
+.size__text {
+    width: 15.9rem;
+    @include font (400, 1.6rem, 150%);
+    font-family: 'Poppins';
+    font-style: normal;
+    color: #808080; 
+}
+
+@media only screen and (min-width: 35.5em) and (max-width: 54.99em) {
+    .size__text {
+        @include font (400, 1.4rem, 140%);
+    }
+}
+
+@media only screen and (max-width: 35.49em) {
+    .size__text {
+        @include font (400, 2.6rem, 140%);
+        width: 50rem;
+    }
+}

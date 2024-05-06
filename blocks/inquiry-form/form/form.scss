@@ -1,0 +1,29 @@
+.form {
+    margin-left: 66.5rem;
+    //padding-left: 69rem;
+    position: absolute;
+    width: 45.5rem;
+    height: 120.5rem;
+    top: 5rem;
+}
+
+@media only screen and (min-width: 35.5em) and (max-width: 54.99em) {
+    .form {
+        position: absolute;
+        margin-left: -5.8rem;
+        top: 0;
+        width: 45.5rem;
+        height: 120.5rem;
+    }
+}
+    
+@media only screen and (max-width: 35.49em) {
+    .form {
+        top: 2rem;
+        margin-left: 0;
+        position: relative;
+        width: auto;
+        height: 164rem;
+        padding-left: 0;
+    }
+}

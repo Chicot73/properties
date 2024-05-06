@@ -1,0 +1,44 @@
+.checkbox__confirm {
+    display: none;
+    width: 30rem;
+    position: absolute;
+    bottom: 3.8rem;
+    left: 5.9rem;
+    transform: translate(0,0);
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 122%;
+    color: #406192;
+    font-family: Inter;
+    padding: 0.4rem 0.9rem 0.6rem;
+    background: #fff;
+    border: 0.2rem solid #406192;
+    box-shadow: 0 0.5rem 1rem rgba(49,112,255,.45);
+    border-radius: 0.3rem;
+    margin-bottom: 1.9rem;
+    letter-spacing: .05em;
+}
+
+@media only screen and (min-width: 35.5em) and (max-width: 54.99em) {
+    .checkbox__confirm {
+        font-weight: 700;
+        font-size: 1.3rem;
+        line-height: 122%;
+        left: 5.17rem;
+        bottom: 5.4rem;
+    }
+}
+
+@media only screen and (max-width: 35.49em) {
+    .checkbox__confirm {
+        bottom: -83rem;
+        left: 4.9rem;
+        transform: translate(0,0);
+        z-index: 300;
+        width: 38rem;
+        font-weight: 700;
+        font-size: 2.2rem;
+        line-height: 122%;
+        padding: 0.5rem 1.5rem 0.7rem;
+    }
+}
