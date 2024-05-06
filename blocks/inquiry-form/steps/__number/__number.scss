@@ -1,0 +1,22 @@
+.steps__number {
+    @include font (500, 3.6rem, 114%);
+    font-family: 'Ubuntu';
+    color: #FFFFFF;
+    opacity: 0.4;
+    letter-spacing: 0.01em;
+    margin-bottom: 1.3rem;
+}
+
+@media only screen and (min-width: 35.5em) and (max-width: 54.99em) {
+    .steps__number {
+        @include font (500, 3.6rem, 114%);
+        margin-bottom: 2.5rem;
+    }
+}
+
+@media only screen and (max-width: 35.49em) {
+    .steps__number {
+        @include font (500, 7.8rem, 114%);
+        margin-bottom: 2.3rem;
+    }
+}

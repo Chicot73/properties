@@ -1,0 +1,20 @@
+
+.steps__desc {
+    @include font (400, 1.6rem, 150%);
+    font-family: 'Poppins';
+    color: #D0E1FB;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+}
+
+@media only screen and (min-width: 35.5em) and (max-width: 54.99em) {
+    .steps__desc {
+        @include font (400, 1.4rem, 150%);
+    }
+}
+
+@media only screen and (max-width: 35.49em) {
+    .steps__desc {
+        @include font (400, 2.6rem, 150%);
+    }
+}

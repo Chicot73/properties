@@ -1,0 +1,21 @@
+.steps__line-first {
+    display: none;
+    width: 16.75rem;
+    height: 0;
+    opacity: 0.5;
+    border-top: 0.1rem solid #D0E1FB;
+    margin-bottom: 5.4rem;
+}
+
+@media only screen and (min-width: 35.5em) and (max-width: 54.99em) {
+    .steps__line-first {
+        display: block;
+        margin-bottom: 5.2rem;
+    }
+}
+
+@media only screen and (max-width: 35.49em) {
+    .steps__line-first {
+        display: none;
+    }
+}

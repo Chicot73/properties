@@ -1,0 +1,21 @@
+.s2 {
+    position: absolute;
+    left: 0;
+    top: 17.7rem;
+    transform: translate(0,0);
+    width: 26.2rem;
+}
+
+@media only screen and (min-width: 35.5em) and (max-width: 54.99em) {
+    .s2 {
+        position: inherit;
+        width: 20.5rem;
+    }
+}
+    
+@media only screen and (max-width: 35.49em) {
+    .s2 {
+        position: inherit;
+        width: 100%;
+    }
+}

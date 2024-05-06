@@ -1,0 +1,21 @@
+.s3 {
+    position: absolute;
+    left: 36rem;
+    top: 42.7rem;
+    transform: translate(0,0);
+    width: 27.2rem;
+}
+
+@media only screen and (min-width: 35.5em) and (max-width: 54.99em) {
+    .s3 {
+        position: inherit;
+        width: 20.5rem;
+    }
+}
+    
+@media only screen and (max-width: 35.49em) {
+    .s3 {
+        position: inherit;
+        width: 100%;
+    }
+}
