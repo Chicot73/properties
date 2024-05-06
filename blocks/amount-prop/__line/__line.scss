@@ -1,0 +1,23 @@
+.amount-prop__line {
+    background-image: url('../img/main/line.svg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position-x: -3.5rem;
+    margin-left: -1.9rem;
+    width: 28.6rem;
+    height: .6rem;
+}
+
+@media only screen and (min-width: 35.5em) and (max-width: 54.99em) {
+    .amount-prop__line {
+        width: 33.8rem;
+        margin-left: -7rem;
+    }   
+}
+
+@media only screen and (max-width: 35.49em) {
+    .amount-prop__line {
+        display: none;
+    }
+}
+

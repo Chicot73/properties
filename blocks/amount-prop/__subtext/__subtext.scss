@@ -1,0 +1,23 @@
+.amount-prop__subtext {
+    text-align: left;
+    @include font (400, 1.6rem, 150%);
+    color: #666666;
+    font-family: 'Poppins';
+    margin-bottom: 3.6rem;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+@media only screen and (min-width: 35.5em) and (max-width: 54.99em) {
+    .amount-prop__subtext {
+        @include font (400, 1.6rem, 150%);
+    }
+}
+
+@media only screen and (max-width: 35.49em) {
+    .amount-prop__subtext {
+        @include font (400, 2.8rem, 150%);
+        color: #FFFFFF;
+        padding-bottom: 8rem;
+    }
+}

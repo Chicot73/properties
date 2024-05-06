@@ -1,0 +1,22 @@
+.amount-prop__line-2 {
+    background-image: url('../img/main/line.svg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position-x: 0;
+    margin-left: -.3rem;
+    transform: rotate(180deg);
+    width: 31.8rem;
+    height: .6rem;
+}
+
+@media only screen and (min-width: 35.5em) and (max-width: 54.99em) {
+    .amount-prop__line-2 {
+        width: 34.8rem;
+    }   
+}
+
+@media only screen and (max-width: 35.49em) {
+    .amount-prop__line-2 {
+        display: none;
+    }
+}

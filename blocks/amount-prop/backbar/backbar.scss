@@ -1,0 +1,21 @@
+.backbar {
+    position: absolute;
+    left: 0;
+    transform: translate(0,0);
+    width: 20rem;
+    padding: .8rem 3.4rem 1.2rem 2rem;
+    background: #072A5F;
+    opacity: 0.7;
+}
+
+@media only screen and (max-width: 35.49em) {
+    .backbar {
+        background: #E7EEFF;
+        opacity: 0.67;
+        border-radius: 1.8rem;
+        left: 50%;
+        width: 35.6rem;
+        transform: translate(-50%,0);
+        padding: 2.8rem 4.9rem 4rem;
+    }
+}

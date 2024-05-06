@@ -1,0 +1,23 @@
+.amount-prop__mob {
+    display: block;
+    height: 0;
+    background-color: #FFFFFF;
+    width: 112rem;
+    margin: 0 auto;
+}
+
+@media only screen and (min-width: 35.5em) and (max-width: 54.99em) {
+    .amount-prop__mob {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 35.49em) {
+    .amount-prop__mob {
+        
+        width: 100%;
+        height: auto;
+        background-color: #516A8F;
+    }
+}

@@ -1,0 +1,10 @@
+.amount-prop__appartment {
+    display: flex;
+}
+
+@media only screen and (max-width: 35.49em) {
+    .amount-prop__appartment {
+        display: block;
+        margin: 0 auto;
+    }
+}

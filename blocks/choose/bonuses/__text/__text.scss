@@ -1,0 +1,14 @@
+.bonuses__text {
+    text-align: center;
+    @include font (300, 1.6rem, 112%);
+    color: #191919;
+    font-family: 'Ubuntu';
+    letter-spacing: 0.01em;
+}
+
+@media only screen and (max-width: 35.49em) {
+    .bonuses__text {
+        @include font (300, 2.4rem, 117%);
+        margin-bottom: 6.5rem;
+    }
+}

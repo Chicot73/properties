@@ -1,0 +1,26 @@
+.choose__back {
+    margin-top: 87rem;
+    width: 100%;
+    height: 50.5rem;
+    padding-top: 10rem;
+    background-color: #F5FAFE;
+    margin-bottom: 12rem;
+}
+
+@media only screen and (min-width: 35.5em) and (max-width: 54.99em) {
+    .choose__back {
+        height: 44.6rem;
+        margin-top: 115rem;
+        padding-top: 6rem;
+        margin-bottom: 6.9rem;
+    }
+}
+
+@media only screen and (max-width: 35.49em) {
+    .choose__back {
+        margin-top: -39rem;
+        padding-top: 10.5rem;
+        height: 166rem;
+
+    }
+}

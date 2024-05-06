@@ -1,0 +1,10 @@
+.bb-2 {
+    bottom: 5.8rem;
+}
+
+@media only screen and (max-width: 35.49em) {
+    .bb-2 {
+        top: 8.5rem;
+        bottom: auto;
+    }
+}

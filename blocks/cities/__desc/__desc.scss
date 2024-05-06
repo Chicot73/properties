@@ -1,0 +1,33 @@
+.cities__desc {
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 122%;
+    color: #666;
+    font-family: Inter;
+    letter-spacing: .01em;
+    width: 86.9rem;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+    text-transform: capitalize;
+}
+
+@media only screen and (min-width: 35.5em) and (max-width: 54.99em) {
+    .cities__desc {
+        width: 58rem;
+        font-weight: 400;
+        font-size: 1.6rem;
+        line-height: 119%;
+        margin-bottom: 0.8rem;
+    }
+}
+
+@media only screen and (max-width: 35.49em) {
+    .cities__desc {
+        width: 100%;
+        font-weight: 400;
+        font-size: 2.5rem;
+        line-height: 155%;
+        margin-bottom: 5.5rem;
+    }
+}

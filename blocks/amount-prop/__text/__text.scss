@@ -1,0 +1,18 @@
+.amount-prop__text {
+    margin-left: 1.9rem;
+    margin-top: 8rem;
+    width: 28.6rem;
+}
+
+@media only screen and (min-width: 35.5em) and (max-width: 54.99em) {
+    .amount-prop__text {
+        margin-left: 6.4rem;
+    }
+}
+
+@media only screen and (max-width: 35.49em) {
+    .amount-prop__text {
+        width: 100%;
+        margin-top: 0;
+    }
+}

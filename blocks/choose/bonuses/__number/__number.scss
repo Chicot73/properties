@@ -1,0 +1,21 @@
+.bonuses__number {
+    text-align: center;
+    @include font (400, 3.6rem, 114%);
+    color: #191919;
+    font-family: 'Ubuntu';
+    margin-bottom: 1rem;
+}
+
+@media only screen and (min-width: 35.5em) and (max-width: 54.99em) {
+    .bonuses__number {
+        @include font (400, 3rem, 113%);
+        margin-bottom: 1.7rem;
+    }
+}
+
+@media only screen and (max-width: 35.49em) {
+    .bonuses__number {
+        @include font (400, 5.5rem, 114%);
+        margin-bottom: 1.5rem;
+    }
+}

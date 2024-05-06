@@ -1,0 +1,20 @@
+.amount-prop__wrapper {
+    height: 75rem;
+    margin-bottom: 12rem;
+}
+
+@media only screen and (min-width: 35.5em) and (max-width: 54.99em) {
+    .amount-prop__wrapper {
+        margin-top: 9rem;
+        margin-bottom: 39rem;
+    }   
+}
+
+@media only screen and (max-width: 35.49em) {
+    .amount-prop__wrapper {
+        margin-top: 192rem;
+        width: 100%;
+        height: auto;
+        margin-bottom: 39rem;
+    } 
+}
