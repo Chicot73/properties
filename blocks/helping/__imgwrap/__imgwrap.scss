@@ -1,0 +1,19 @@
+.helping__imgwrap {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+@media only screen and (min-width: 35.5em) and (max-width: 54.99em) {
+    .helping__imgwrap {
+        display: block;
+        padding: 0 6.6rem;
+    }
+}
+
+@media only screen and (max-width: 35.49em) {
+    .helping__imgwrap {
+        display: block;
+        padding: 0;
+    }
+}

@@ -1,0 +1,18 @@
+.bonus__title {
+    @include font (700, 2.4rem, 117%);
+    font-family: 'Ubuntu';
+    margin-bottom: 1rem;
+}
+
+@media only screen and (min-width: 35.5em) and (max-width: 54.99em) {
+    .bonus__title {
+        @include font (700, 2.2rem, 114%);
+    }
+}
+
+@media only screen and (max-width: 35.49em) {
+    .bonus__title {
+        @include font (700, 3.5rem, 117%);
+        margin-bottom: 1.2rem;
+    }
+}
