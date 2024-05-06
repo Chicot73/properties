@@ -1,0 +1,19 @@
+.header__title {
+    display: block;
+    width: 64rem;
+    margin-bottom: 0.7rem;
+}
+
+@media only screen and (min-width: 35.5em) and (max-width: 54.99em) {
+    .header__title {
+        width: 31.5rem;
+        margin-bottom: 1.3rem;
+    }
+}
+
+@media only screen and (max-width: 35.49em) {
+    .header__title {
+        width: 45.7rem;
+        margin-bottom: 2.8rem;
+    }
+}

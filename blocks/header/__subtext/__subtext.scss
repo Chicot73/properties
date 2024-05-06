@@ -1,0 +1,19 @@
+.header__subtext {
+    display: block;
+    width: 57.8rem;
+    margin-bottom: 6rem;
+}
+
+@media only screen and (min-width: 35.5em) and (max-width: 54.99em) {
+    .header__subtext {
+        width: 35.4rem;
+        margin-bottom: 7.3rem;
+    }
+}
+
+@media only screen and (max-width: 35.49em) {
+    .header__subtext {
+        width: 45.8rem;
+        margin-bottom: 13.2rem;
+    }
+}

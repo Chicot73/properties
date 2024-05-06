@@ -1,0 +1,67 @@
+.header__line--start {
+
+        background: linear-gradient(270.32deg,rgba(29, 70, 134,0)1%,rgba(36,96,204,0)22.73%,rgba(49, 112, 255,0));
+        padding-top: .7rem;
+        animation: move3 .4s;
+        margin-bottom: 10rem;
+        animation-timing-function: linear;
+    }
+
+@keyframes move3 {
+
+    from {
+        background: linear-gradient(270.32deg,rgba(29, 70, 134,.2)1%,rgba(36,96,204,.8)22.73%,rgba(49, 112, 255,1));
+        padding-top: 0;
+        margin-bottom: 10.7rem;
+    }
+    to { 
+        background: linear-gradient(270.32deg,rgba(29, 70, 134,0)1%,rgba(36,96,204,0)22.73%,rgba(49, 112, 255,0));
+        padding-top: .7rem;
+        margin-bottom: 10rem;
+    }  
+}
+
+@media only screen and (min-width: 35.5em) and (max-width: 54.99em) {
+
+    .header__line--start {
+                background: linear-gradient(270.32deg,rgba(36,96,204,0),rgba(49,112,255,0),rgba(49, 112, 255,0));
+                padding-top: .1rem;
+                margin-bottom: 2rem;
+                animation: move3 .2s;
+                animation-timing-function: linear;
+    }
+    @keyframes move3 {
+
+        from {
+            background: linear-gradient(270.32deg,rgba(29, 70, 134,.6)1%,rgba(36,96,204,.9)22.73%,rgba(49, 112, 255,1));
+            padding-top: .1rem;
+            margin-bottom: 3.6rem;
+        }
+        to { 
+            background: linear-gradient(270.32deg,rgba(36,96,204,0),rgba(49,112,255,0),rgba(49, 112, 255,0));
+            padding-top: .1rem;
+            margin-bottom: 2rem;
+        }  
+    }
+}
+    
+@media only screen and (max-width: 35.49em) {
+    
+        .header__line--start{
+                background: linear-gradient(270.32deg,rgba(36,96,204,0),rgba(49,112,255,0),rgba(49, 112, 255,0));
+                padding-top: 0;
+                animation: move3 .1s;
+                animation-timing-function: linear;
+        }
+        @keyframes move3 {
+
+            from {
+                background: linear-gradient(270.32deg,rgba(29, 70, 134,.6)1%,rgba(36,96,204,.9)22.73%,rgba(49, 112, 255,1));
+                padding-top: 0;
+            }
+            to { 
+                background: linear-gradient(270.32deg,rgba(36,96,204,0),rgba(49,112,255,0),rgba(49, 112, 255,0));
+                padding-top: 0;
+            }
+        }
+}

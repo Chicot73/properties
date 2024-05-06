@@ -1,0 +1,23 @@
+
+.header__wrapper {
+    @include vert-c;
+}
+
+@media only screen and (min-width: 35.5em) and (max-width: 54.99em) {
+    .header__wrapper {
+        margin-top: 1.8rem;
+        margin-bottom: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 35.49em) {
+    .header__wrapper {
+        border-bottom: 0.15rem solid #FFFFFF;
+        padding-right: 3.4rem;
+        padding-left: 3.4rem;
+        padding-top: 1.75rem;
+        padding-bottom: 1.75rem;
+        margin-left: -3.26rem;
+        margin-right: -3.26rem;
+    }
+}

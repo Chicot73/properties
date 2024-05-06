@@ -1,0 +1,18 @@
+.header__subtext--style {
+    @include font (400, 2rem, 150%);
+    font-family: 'Poppins';
+    color: #FFFFFF;
+    letter-spacing: 0.04em;
+}
+
+@media only screen and (min-width: 35.5em) and (max-width: 54.99em) {
+    .header__subtext--style {
+        @include font (400, 1.4rem, 150%);
+    }
+}
+
+@media only screen and (max-width: 35.49em) {
+    .header__subtext--style {
+        @include font (400, 2.5rem, 150%);
+    }
+}

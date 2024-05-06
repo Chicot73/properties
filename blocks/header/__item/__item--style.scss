@@ -1,0 +1,17 @@
+
+.header__item--style {
+    @include font (500, 1.8rem, 116%);
+    font-family: 'Ubuntu';
+    //color: #DCE6FF;
+    color: #FFFFFF;
+
+    &:active {
+        color: #000000;
+    }
+}
+
+@media only screen and (min-width: 35.5em) and (max-width: 54.99em) {
+    .header__item--style {
+        @include font (500, 1.4rem, 115%);
+    }
+}

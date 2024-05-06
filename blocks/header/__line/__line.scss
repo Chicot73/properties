@@ -1,0 +1,28 @@
+.header__line {
+    position: sticky;
+    top: 0;
+    z-index: 1001;
+    border-bottom: 0.2rem solid #dce6ff;
+    margin-bottom: 10rem;
+    padding-top: 0.7rem;
+}
+
+@media only screen and (min-width: 35.5em) and (max-width: 54.99em) {
+    .header__line {
+        position: sticky;
+        top: 0;
+        border-bottom: 0.15rem solid #dce6ff;
+        margin-bottom: 2rem;
+        padding-top: 0.1rem;
+    }
+}
+
+@media only screen and (max-width: 35.49em) {
+    .header__line {
+        position: sticky;
+        top: 0;
+        padding-top: 0;
+        border-bottom: 0.15rem solid #dce6ff;
+        margin-bottom: 13.9rem;
+    }
+}

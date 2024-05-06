@@ -1,0 +1,14 @@
+
+.header__button--style {
+    
+    & button {
+    @include font (500, 1.6rem, 150%);
+    font-family: 'Poppins';
+    color: #272727;
+    background: #FFFFFF;
+    margin-top: 1.55rem;
+    margin-bottom: 1.55rem;
+    border-radius: .8rem;
+    cursor: pointer;
+    }
+}

@@ -1,0 +1,12 @@
+@media only screen and (max-width: 35.49em) {
+    .header__mainmenu-mob {
+        z-index: 1002;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: absolute;
+        left: 50%;
+        top: 12rem;
+        transform: translate(-50%, 0);
+    }
+}

@@ -1,0 +1,36 @@
+
+.header__active {
+    position: relative;
+
+    &::after {
+        content: "";
+        position: absolute;
+        width: 6px;
+        height: 6px;
+        background: #DCE6FF;
+        border-radius: 50%;
+        border: .2rem solid #5F8EED;
+        bottom: -160%;
+        left: 30%;
+        transform: translate(-70%, -50%);
+    }
+}
+
+
+@media only screen and (min-width: 35.5em) and (max-width: 54.99em) {
+    .header__active {
+        &::after {
+            content: "";
+            width: 5px;
+            height: 5px;
+            border: .2rem solid #5F8EED;
+            bottom: -150%;
+            transform: translate(-90%, -25%);
+        }
+        &::after(:last-child) {
+            content: "";
+            border: .3rem solid #5c93f7;
+            transform: translate(80%, -25%);
+        }
+    }
+}

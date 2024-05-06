@@ -1,0 +1,22 @@
+
+.header__item {
+    cursor: pointer;
+    &:not(:last-child) {
+        padding-right: 4.6rem;
+    }
+    &:last-child {
+        padding-right: 4.4rem;
+    } 
+}
+
+@media only screen and (min-width: 35.5em) and (max-width: 54.99em) {
+    .header__item {
+        &:not(:last-child) {
+            padding-right: 4rem;
+        }
+        &:last-child {
+            padding-right: 0;
+        } 
+        
+    }
+}

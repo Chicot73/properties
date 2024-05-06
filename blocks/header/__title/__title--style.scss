@@ -1,0 +1,17 @@
+.header__title--style {
+    @include font (700, 9rem, 116%);
+    font-family: 'Ubuntu';
+    color: #FFFFFF;
+}
+
+@media only screen and (min-width: 35.5em) and (max-width: 54.99em) {
+    .header__title--style {
+        @include font (700, 4.6rem, 116%);
+    }
+}
+
+@media only screen and (max-width: 35.49em) {
+    .header__title--style {
+        @include font (700, 6.4rem, 116%);
+    }
+}

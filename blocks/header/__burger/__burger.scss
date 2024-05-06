@@ -1,0 +1,24 @@
+.header__burger {
+    display: none;
+}
+
+@media only screen and (min-width: 35.5em) and (max-width: 54.99em) {
+    .header__burger {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 35.49em) {
+    .header__burger {
+        display: block;
+        width: 4rem;
+        height: 2.8rem;
+        background-image: url('../img/header/burger.svg');
+        background-repeat: no-repeat;
+        background-size: 100%;
+
+        &:active {
+            background-image: url('../img/header/burger-act.svg');
+        }
+    }
+}

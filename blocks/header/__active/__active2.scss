@@ -1,0 +1,31 @@
+.header__active2 {
+    position: relative;
+
+        &::after {
+        content: "";
+        position: absolute;
+        width: 6px;
+        height: 6px;
+        background: #dce6ff;
+        border-radius: 50%;
+        border: 0.2rem solid #5f8eed;
+        bottom: -160%;
+        left: 30%;
+        transform: translate(-70%,-50%);
+    }
+}
+@media only screen and (min-width: 35.5em) and (max-width: 54.99em) {
+    .header__active2 {
+        position: relative;
+
+        &::after {
+            content: "";
+            position: absolute;
+            width: 5px;
+            height: 5px;
+            border: 0.2rem solid #5f8eed;
+            bottom: -150%;
+            transform: translate(90%,-25%);
+        }
+    }
+}

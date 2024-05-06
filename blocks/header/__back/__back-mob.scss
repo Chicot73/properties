@@ -1,0 +1,21 @@
+
+/* .header__back-mob {
+    background: rgba(2, 31, 81, 0.8);
+}
+
+@media only screen and (min-width: 35.5em) and (max-width: 54.99em) {
+    .header__back-mob {
+        background: rgba(2, 31, 81, 0.8);
+    }
+}
+ */
+@media only screen and (max-width: 35.49em) {
+    .header__back-mob {
+        height: 74rem;
+        background-color: rgba(2, 31, 81, 0.96);
+        background-size: 100%;
+        background-position-x: 0;
+        background-position-y: 0;
+    }
+}
+

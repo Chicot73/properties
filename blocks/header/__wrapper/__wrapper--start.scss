@@ -1,0 +1,22 @@
+@media only screen and (min-width: 35.5em) and (max-width: 54.99em) {
+    .header__wrapper--start {
+        margin-top: 1.8rem;
+        margin-bottom: 1.5rem;
+        //margin-top: 0.85rem;
+        //margin-bottom: 0.87rem;
+        animation: move5 .2s;
+        animation-timing-function: linear;
+        }
+        @keyframes move5 {
+
+            from {
+                margin-top: 0.85rem;
+                margin-bottom: 0.87rem;
+            }
+            to { 
+                margin-top: 1.8rem;
+                margin-bottom: 1.5rem;
+            }
+        }
+    }
+
