@@ -1,0 +1,23 @@
+
+.card__title {
+    @include font (500, 2rem, 115%);
+    font-family: 'Ubuntu';
+    color: #333333;
+    letter-spacing: 0.02em;
+    margin-bottom: .6rem;
+}
+    
+@media only screen and (min-width: 35.5em) and (max-width: 54.99em) {
+    .card__title {
+        @include font (500, 1.8rem, 115%);
+
+    }
+}
+    
+@media only screen and (max-width: 35.49em) {
+    .card__title {
+        @include font (500, 2.8rem, 117%);
+        margin-bottom: 2.25rem;
+        text-align: center;
+    }
+}

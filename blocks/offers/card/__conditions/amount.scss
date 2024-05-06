@@ -1,0 +1,24 @@
+
+.amount {
+    @include font (400, 1.4rem, 150%);
+    font-family: 'Poppins';
+    color: #999999;
+    letter-spacing: 0.02em;
+    margin-top: 0.4rem;
+}
+    
+@media only screen and (min-width: 35.5em) and (max-width: 54.99em) {
+    .amount {
+        @include font (400, 1.2rem, 150%);
+        margin-top: 0.5rem;
+    }
+}
+    
+@media only screen and (max-width: 35.49em) {
+    .amount {
+        display: none;
+        @include font (400, 2.8rem, 153%);
+        margin-top: 0.9rem;
+        
+    }
+}

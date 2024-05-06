@@ -1,0 +1,32 @@
+.card__img {
+    position: relative;
+
+    & img {
+        width: 34rem;
+        margin-left: -1.4rem;
+        margin-bottom: 2.6rem;
+    }
+}
+
+@media only screen and (min-width: 35.5em) and (max-width: 54.99em) {
+    .card__img {
+    
+        & img {
+            width: 29.7rem;
+            margin-left: -1.2rem;
+            margin-bottom: 2.2rem;
+        }
+    }
+}
+
+@media only screen and (max-width: 35.49em) {
+    .card__img {
+    
+        & img {
+            width: 46.9rem;
+            margin-left: -1.75rem;
+            margin-bottom: 2.1rem;
+            border-radius: 0.7rem 0.7rem 0 0;
+        }
+    }
+}

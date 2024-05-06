@@ -1,0 +1,42 @@
+.card__type {
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 150%;
+    font-family: Poppins;
+    color: #fff;
+    background-color: rgba(250,91,62,.6);
+    position: absolute;
+    width: 22.5rem;
+    text-align: center;
+    left: 15.5rem;
+    bottom: 0;
+    transform: translate(-50%,-3.2rem);
+    padding-top: 0.45rem;
+    padding-bottom: 0.35rem;
+    letter-spacing: .02em;
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+
+@media only screen and (min-width: 35.5em) and (max-width: 54.99em) {
+    .card__type {
+        width: 19.9rem;
+        left: 13.5rem;
+        padding-top: 0.35rem;
+        padding-bottom: 0.38rem;
+        transform: translate(-50%,-2.65rem);
+        font-weight: 500;
+        font-size: 1.4rem;
+        line-height: 150%;
+    }
+}
+
+@media only screen and (max-width: 35.49em) {
+    .card__type {
+        width: 37.2rem;
+        left: 50%;
+        font-weight: 500;
+        font-size: 2.6rem;
+        line-height: 150%;
+        bottom: -.5rem;
+    }
+}

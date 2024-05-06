@@ -1,0 +1,47 @@
+.card__for-sell {
+    position: absolute;
+    width: 9.9rem;
+    height: 4.6rem;
+    right: 0;
+    top: 0;
+    z-index: 3;
+    transform: translate(0.8rem,1.6rem);
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 150%;
+    font-family: Poppins;
+    color: #fff;
+    padding: 0.45rem 0 0.45rem;
+    text-align: center;
+    letter-spacing: .02em;
+    background-image: url(../img/main/card/forsell-pad.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media only screen and (min-width: 35.5em) and (max-width: 54.99em) {
+    .card__for-sell {
+        font-weight: 400;
+        font-size: 1.4rem;
+        line-height: 115%;
+        transform: translate(0.7rem,1.6rem);
+        width: 8.8rem;
+        height: 4.1rem;
+        padding: 0.6rem 0 0.2rem;
+        background-image: url(../img/main/card/forsell-pad.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+@media only screen and (max-width: 35.49em) {
+    .card__for-sell {
+        font-weight: 400;
+        font-size: 2.9rem;
+        line-height: 148%;
+        width: 18rem;
+        height: 8.4rem;
+        padding-top: 0.7rem;
+        transform: translate(3.9rem,2rem);
+    }
+}

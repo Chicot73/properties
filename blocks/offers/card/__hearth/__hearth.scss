@@ -1,0 +1,35 @@
+.card__hearth {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translate(-0.4rem,0.9rem);
+    z-index: 3;
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 50%;
+    background-color: rgba(4,21,47,.3);
+    background-image: url(../img/main/card/heart.svg);
+    background-repeat: no-repeat;
+    background-size: 1.8rem;
+    background-position: center;
+}
+
+@media only screen and (min-width: 35.5em) and (max-width: 54.99em) {
+    .card__hearth {
+        display: none;
+        width: 4rem;
+        height: 4rem;
+        transform: translate(-0.3rem,0.9rem);
+    }
+}
+
+@media only screen and (max-width: 35.49em) {
+    .card__hearth {
+        display: none;
+        width: 6.2rem;
+        height: 6.2rem;
+        background-size: 2.4rem;
+        transform: translate(0.1rem,1.6rem);
+    }
+}

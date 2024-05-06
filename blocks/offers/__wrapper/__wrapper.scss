@@ -1,0 +1,22 @@
+
+.offers__wrapper {
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(3, 1fr);
+    column-gap: 2rem;
+    margin: 0 auto .7rem auto;
+
+}
+
+@media only screen and (min-width: 35.5em) and (max-width: 54.99em) {
+    .offers__wrapper {
+        grid-template: repeat(3, 1fr) / repeat(2, 1fr);
+        column-gap: 1.9em;
+        margin-bottom: 0;
+    }
+}
+    
+@media only screen and (max-width: 35.49em) {
+    .offers__wrapper {
+        grid-template: repeat(6, 1fr) / repeat(1, 1fr);
+    }
+}

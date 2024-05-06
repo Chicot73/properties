@@ -1,0 +1,21 @@
+.card__price {
+    @include font (400, 3.2rem, 115%);
+    font-family: 'Ubuntu';
+    color: #1266E3;
+    letter-spacing: 0.02em;
+    margin-bottom: 2.2rem;
+}
+    
+@media only screen and (min-width: 35.5em) and (max-width: 54.99em) {
+    .card__price {
+        @include font (400, 2.8rem, 115%);
+        margin-bottom: 1.9rem;
+    }
+}
+    
+@media only screen and (max-width: 35.49em) {
+    .card__price {
+        @include font (400, 4.5rem, 113%);
+        margin-bottom: 2.8rem;
+    }
+}

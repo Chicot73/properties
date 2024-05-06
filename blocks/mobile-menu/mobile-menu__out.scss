@@ -1,0 +1,27 @@
+.mobile-menu__out {
+    display: none;
+    visibility: hidden;
+}
+@media only screen and (max-width: 35.49em) {
+    .mobile-menu__out {
+        display: block;
+        visibility: visible;
+        width: 100%;
+        position: absolute;
+        left: -70rem;
+        top: 0;
+        transform: translate(0,0);
+        z-index: 1000;
+        animation: move2 .3s;
+        animation-timing-function: ease-out;
+        @keyframes move2 {
+
+            from {
+                left: 0;
+            }
+            to { 
+                left: -70rem;
+            }
+        }
+    }
+}

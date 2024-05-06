@@ -1,0 +1,46 @@
+.offers__button {
+    text-align: center;
+    & button {
+        font-weight: 500;
+        font-size: 1.6rem;
+        line-height: 150%;
+        font-family: Poppins;
+        color: #1266e3;
+        letter-spacing: .02em;
+        width: 36rem;
+        padding-top: 1.7rem;
+        padding-bottom: 1.7rem;
+        margin: 0 auto 12.5rem auto;
+        background: #fff;
+        border: 0.1rem solid #2a79ee;
+        border-radius: 1rem;
+        cursor: pointer;
+    } 
+}
+
+@media only screen and (min-width: 35.5em) and (max-width: 54.99em) {
+    .offers__button button {
+        font-weight: 500;
+        font-size: 1.5rem;
+        line-height: 150%;
+        width: 32rem;
+        padding-top: 1.6rem;
+        padding-bottom: 1.6rem;
+        margin-bottom: 8.6rem;
+    }
+}
+
+@media only screen and (max-width: 35.49em) {
+    .offers__button button {
+        font-weight: 500;
+        font-size: 2.8rem;
+        line-height: 153%;
+        color: #fff;
+        background: #1266e3;
+        width: 39rem;
+        padding-top: 2.1rem;
+        padding-bottom: 2.3rem;
+        border-radius: 1.6rem;
+        border: 0;
+    }
+}
