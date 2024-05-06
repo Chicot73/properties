@@ -1,0 +1,17 @@
+.slider-2__arrowright {
+    display: none;
+}
+
+@media only screen and (max-width: 35.49em) {
+    .slider-2__arrowright {
+        display: block;
+        position: absolute;
+        left: 6.3rem;
+        top: 7.2rem;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 2rem 3.3rem 2rem 3.3rem;
+        border-color: transparent transparent transparent #FFFFFF; 
+    }
+}

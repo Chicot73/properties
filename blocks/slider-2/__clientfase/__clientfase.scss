@@ -1,0 +1,18 @@
+.slider-2__clientfase {
+    width: 7rem;
+    height: 7rem;
+    flex-shrink: 0;
+    margin: 0 auto;
+    margin-bottom: 1.5rem;
+    & img {
+        border-radius: 50%;
+    }
+}
+
+@media only screen and (max-width: 35.49em) {
+    .slider-2__clientfase {
+        width: 12.4rem;
+        height: 12.4rem;
+        margin-bottom: 2.7rem;
+    }
+}

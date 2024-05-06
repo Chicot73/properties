@@ -1,0 +1,22 @@
+.sales-block__submenu {
+    @include vert-c;
+    width: 34.6rem;
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 35.5em) and (max-width: 54.99em) {
+    .sales-block__submenu {
+        position: absolute;
+        top: -3.3rem;
+        left: 0;
+        transform: translate(0, -50%);
+        z-index: 1;
+    }
+}
+
+@media only screen and (max-width: 35.49em) {
+    .sales-block__submenu {
+        width: 100%;
+        margin-bottom: 3.9rem;
+    }
+}

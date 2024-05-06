@@ -1,0 +1,18 @@
+.slider-1__slide {
+    width: 39rem;
+    height: 50rem;
+}
+
+@media only screen and (min-width: 35.5em) and (max-width: 54.99em) {
+    .slider-1__slide {
+        width: 29.7rem;
+        height: 38.1rem;
+    }
+}
+
+@media only screen and (max-width: 35.49em) {
+    .slider-1__slide {
+        width: 48.8rem;
+        height: 55.7rem;
+    }
+}

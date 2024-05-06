@@ -1,0 +1,20 @@
+.select__title-2 {
+    @include font (400, 1.6rem, 150%);
+    font-family: 'Poppins';
+    font-style: normal;
+    color: #191919;
+}
+
+@media only screen and (min-width: 35.5em) and (max-width: 54.99em) {
+    .select__title-2 {
+        @include font (400, 1.4rem, 140%);
+        flex-shrink: 0;
+    }
+}
+
+
+@media only screen and (max-width: 35.49em) {
+    .select__title-2 {
+        @include font (400, 2.6rem, 140%);
+    }
+}

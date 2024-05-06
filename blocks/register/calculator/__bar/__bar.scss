@@ -1,0 +1,22 @@
+.calculator__bar {
+    text-align: center;
+    width: 26.5rem;
+    padding: 2.8rem 3.5rem 3rem;
+    background: #FFFFFF;
+    border-radius: 1.5rem;   
+}
+
+@media only screen and (min-width: 35.5em) and (max-width: 54.99em) {
+    .calculator__bar {
+        width: 21.8rem;
+        padding: 2.2rem 1.8rem 2.8rem;
+    }
+}
+
+@media only screen and (max-width: 35.49em) {
+    .calculator__bar {
+        width: 100%;
+        padding: 4.1rem 3rem 4.3rem;
+        border-radius: 2.1rem; 
+    }
+}

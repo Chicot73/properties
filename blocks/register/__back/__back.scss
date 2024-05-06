@@ -1,0 +1,29 @@
+.register__back {
+    width: 112rem;
+    margin: 0 auto;
+    background: #1266E3;
+    border-radius: 3rem;
+    padding: 6rem 9.7rem;
+    position: relative;
+    margin-bottom: 10rem;
+}
+
+@media only screen and (min-width: 35.5em) and (max-width: 54.99em) {
+    .register__back {
+        width: 65.7rem;
+        margin: 0 auto;
+        position: relative;
+        padding: 11.3rem 5.3rem 4.8rem;
+        margin-bottom: 7.4rem;
+    }
+}
+
+@media only screen and (max-width: 35.49em) {
+    .register__back {
+        width: 100%;
+        margin: 0;
+        padding: 12.4rem 8.1rem 13.9rem;
+        border-radius: 0;
+        margin-bottom: 9.8rem;
+    }
+}

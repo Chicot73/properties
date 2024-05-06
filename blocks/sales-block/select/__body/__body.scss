@@ -1,0 +1,33 @@
+.select__body {
+    display: none;
+    position: absolute;
+    top: 18.3rem;
+    left: 12rem;
+    transform: translate(-51%,-50%);
+    width: 18.95rem;
+    border: 0.1rem solid #c3d3e9;
+    border-top: 0;
+    background-color: #fff;
+    box-shadow: 0 0.5rem 1.1rem rgba(0,0,0,.06);
+    border-radius: 0 0 1rem 1rem;
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 35.5em) and (max-width: 54.99em) {
+    .select__body {
+        top: 15.1rem;
+        left: 0;
+        width: 18.1rem;
+        transform: translate(0,-50%);
+    }
+}
+
+@media only screen and (max-width: 35.49em) {
+    .select__body {
+        z-index: 500;
+        top: 36.8rem;
+        left: 0;
+        width: 50.2rem;
+        transform: translate(0,-50%);
+    }
+}

@@ -1,0 +1,21 @@
+.sales-block__subscr {
+    @include font (400, 1.4rem, 150%);
+    font-family: 'Ubuntu';
+    font-family: 'Poppins';
+    color: #999999;
+    margin-bottom: .5rem;
+}
+
+@media only screen and (min-width: 35.5em) and (max-width: 54.99em) {
+    .sales-block__subscr {
+        margin-bottom: .9rem;
+    }
+}
+
+@media only screen and (max-width: 35.49em) {
+    .sales-block__subscr {
+        @include font (400, 2.5rem, 120%);
+        margin-bottom: 1.8rem;
+    }
+}
+

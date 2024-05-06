@@ -1,0 +1,51 @@
+.slider-3 {
+    display: block;
+    height: 25rem;
+    width: 16.8rem;
+    user-select: none;
+
+    .swiper-container {
+        margin-left: 0;
+        width: 100%;
+    }
+    .swiper-wrapper {
+        width: 100%;
+    }
+    .swiper-slide {
+        border-radius: 1rem;
+    }
+    .swiper-scrollbar {
+        display: block;
+    }
+    .swiper-scrollbar, .swiper-scrollbar-vertical {
+        background: #223a54;
+    }
+}
+@media only screen and (min-width: 35.5em) and (max-width: 54.99em) {
+    .slider-3 {
+        width: 19.8rem;
+    }
+}
+
+@media only screen and (max-width: 35.49em) {
+    .slider-3 {
+            width: 0;
+            height: 0;
+        .swiper {
+            width: 0;
+            height: 0;
+        }
+        .swiper-container {
+            display: none;
+        }
+        .swiper-wrapper {
+            display: none;
+        }
+        .swiper-slide {
+            display: none;
+        }
+        .swiper-scrollbar {
+            display: none;
+        }
+    }
+}

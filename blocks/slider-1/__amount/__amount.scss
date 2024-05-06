@@ -1,0 +1,25 @@
+.slider-1__amount {
+    width: 20rem;
+    position: absolute;
+    left: 50%;
+    top: 5.8rem;
+    transform: translate(-50%, 0);
+    @include font (500, 1.8rem, 150%);
+    color: #FFFFFF;
+    font-family: 'Poppins';
+}
+
+@media only screen and (min-width: 35.5em) and (max-width: 54.99em) {
+    .slider-1__amount {
+        @include font (500, 1.4rem, 150%);
+        top: 4.4rem;
+    }
+}
+
+@media only screen and (max-width: 35.49em) {
+    .slider-1__amount {
+        @include font (500, 3.2rem, 150%);
+        width: 35rem;
+        top: 10.3rem;
+    }
+}

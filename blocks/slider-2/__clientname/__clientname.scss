@@ -1,0 +1,14 @@
+.slider-2__clientname {
+    @include font (600, 1.8rem, 111%);
+    color: #333333;
+    font-family: 'Inter';
+    margin: 0 auto;
+    margin-bottom: .8rem;
+}
+
+@media only screen and (max-width: 35.49em) {
+    .slider-2__clientname {
+        @include font (600, 3.2rem, 109%);
+        margin-bottom: 1.4rem;
+    }
+}

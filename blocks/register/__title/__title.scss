@@ -1,0 +1,31 @@
+.register__title {
+    width: 100%;
+    position: inherit;
+    margin: 0 auto;
+    @include font (700, 4.4rem, 116%);
+    color: #FFFFFF;
+    font-family: 'Ubuntu';
+    margin-bottom: 2rem;
+    text-transform: capitalize;
+}
+
+@media only screen and (min-width: 35.5em) and (max-width: 54.99em) {
+    .register__title {
+        width: 39.4rem;
+        @include font (700, 3.2rem, 116%);
+        position: absolute;
+        left: 50%;
+        top: 3.1rem;
+        transform: translate(-50%, 0);
+    }
+}
+
+@media only screen and (max-width: 35.49em) {
+    .register__title {
+        width: 100%;
+        position: inherit;
+        text-align: center;
+        @include font (700, 5.7rem, 114%);
+        margin-bottom: 3.4rem;
+    }
+}

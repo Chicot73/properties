@@ -1,0 +1,9 @@
+.range2 {
+    grid-area: e;
+}
+
+@media only screen and (min-width: 35.5em) and (max-width: 54.99em) {
+    .range2 {
+        grid-area: v;
+    }
+}

@@ -1,0 +1,15 @@
+.slider-2__flag2 {
+    display: none;
+}
+
+@media only screen and (max-width: 35.49em) {
+    .slider-2__flag2 {
+        display: block;
+        position: relative;
+        width: 16.9rem;
+        height: 3.6rem;
+        left: -.2rem;
+        top: -52rem;
+        transform: translate (0, 0);
+    }
+}

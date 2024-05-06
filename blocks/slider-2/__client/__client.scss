@@ -1,0 +1,19 @@
+.slider-2__client {
+    text-align: center;
+    position: relative;
+    background: #FFFFFF;
+    border: 0.2rem solid #E5E5E5;
+    border-radius: 1rem;
+    padding: 2rem 1rem;
+}
+
+@media only screen and (max-width: 35.49em) {
+    .slider-2__client {
+        width: 48.8rem;
+        margin: 0 auto;
+        background: #E7F0FD;
+        border: 0;
+        border-radius: 1.8rem; 
+        padding: 4.8rem 4.1rem 4rem;
+    }
+}

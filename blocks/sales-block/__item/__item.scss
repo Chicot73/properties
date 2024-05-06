@@ -1,0 +1,33 @@
+.sales-block__item {
+    display: block;
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 210%;
+    font-family: Poppins;
+    color: #dce6ff;
+    text-transform: uppercase;
+    width: 11.2rem;
+    height: 3.9rem;
+    text-align: center;
+    background-color: rgba(255,255,255,.25);
+    border-radius: 0.6rem 0.6rem 0 0;
+}
+
+@media only screen and (min-width: 35.5em) and (max-width: 54.99em) {
+    .sales-block__item {
+        padding-top: 0.2rem;
+    }
+}
+
+@media only screen and (max-width: 35.49em) {
+    .sales-block__item {
+        font-weight: 500;
+        font-size: 2.3rem;
+        line-height: 150%;
+        width: 16.3rem;
+        height: 5.4rem;
+        color: #96979a;
+        background-color: #eff0f4;
+        padding-top: 0.95rem;
+    }
+}

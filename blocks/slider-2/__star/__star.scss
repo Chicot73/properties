@@ -1,0 +1,14 @@
+.slider-2__star {
+    width: 1.5rem;
+    height: 1.5rem;
+    &:not(:last-child) {
+        margin-right: .38rem;
+    }
+}
+
+@media only screen and (max-width: 35.49em) {
+    .slider-2__star {
+        width: 2.7rem;
+        height: 2.7rem;
+    }
+}

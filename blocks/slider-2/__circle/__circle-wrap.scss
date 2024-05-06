@@ -1,0 +1,19 @@
+.slider-2__circle-wrap {
+    display: none;
+}
+
+@media only screen and (max-width: 35.49em) {
+    .slider-2__circle-wrap {
+        display: block;
+        width: 18.1rem;
+        height: 18.1rem;
+        position: absolute;
+        left: 0;
+        top: 0;
+        border-radius: 50%;
+        background: linear-gradient(180deg, rgba(49, 112, 255, 0.01) 0%, rgba(49, 206, 255, 0.53) 100%);
+    }
+    .slider-2__circle-wrap .slider-2__arrowright:last-of-type {
+        left: 9.7rem;
+    }
+}

@@ -1,0 +1,21 @@
+.sales-block__button-2 {
+    width: 45rem;
+    padding-top: 1.4rem;
+    padding-bottom: 1.4rem;
+    @include font (500, 1.4rem, 150%);
+    font-family: 'Poppins';
+    font-style: normal;
+    color: #191919;
+    text-align: center;
+    background: #FFFFFF;
+    border: 0.09rem solid #2A79EE;
+    border-radius: .9rem;
+    cursor: pointer;
+    display: none;
+}
+
+@media only screen and (min-width: 35.5em) and (max-width: 54.99em) {
+    .sales-block__button-2 {
+        display: block;  
+    }
+}

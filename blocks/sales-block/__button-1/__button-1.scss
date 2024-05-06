@@ -1,0 +1,33 @@
+.sales-block__button-1 {
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 150%;
+    font-family: Poppins;
+    font-style: normal;
+    color: #fff;
+    background: #1266e3;
+    padding: 1.2rem 3.7rem 1.4rem 3.7rem;
+    text-align: center;
+    align-self: center;
+    border-radius: 0.9rem;
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 35.5em) and (max-width: 54.99em) {
+    .sales-block__button-1 {
+        width: 18.1rem;
+        margin-right: 1.9rem;
+        padding: 1.2rem auto;
+    }
+}
+
+@media only screen and (max-width: 35.49em) {
+    .sales-block__button-1 {
+        font-weight: 400;
+        font-size: 2.8rem;
+        line-height: 150%;
+        border-radius: 1.6rem;
+        padding: 2.1rem 0;
+        margin: 0 8.8rem 5.3rem;
+    }
+}

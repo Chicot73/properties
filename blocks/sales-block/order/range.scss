@@ -1,0 +1,10 @@
+.range {
+    grid-area: b;
+}
+
+@media only screen and (min-width: 35.5em) and (max-width: 54.99em) {
+    .range {
+        grid-area: iv;
+        margin-left: 1.9rem;
+    }
+}
